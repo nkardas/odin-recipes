@@ -1,0 +1,67 @@
+/* Basic reset for margin and padding */
+body, h1, h3, ul, li, ol, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Subheader styling */
+h3 {
+    color: #555;
+    margin: 20px 0 10px;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* List styling */
+ul, ol {
+    margin: 20px 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Link styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Home link styling */
+a[href="../index.html"] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
